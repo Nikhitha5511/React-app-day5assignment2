@@ -1,0 +1,85 @@
+body{
+  background-color:rgb(247, 231, 234);
+}
+
+.EducationContainer{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin:90px;
+}
+h1{
+  color:green;
+}
+.search{
+  border:1px solid rgb(199, 81, 199);
+  width:200px;
+  height:30px;
+  border-radius: 6px;
+
+}
+.search::placeholder{
+  font-size: 16px;
+}
+.number{
+  border:1px solid rgb(199, 81, 199);
+  width:60px;
+  height:30px;
+  border-radius: 6px;
+  margin: 8px;
+}
+.number::placeholder{
+  font-size: 16px;
+}
+button{
+  width:100px;
+  height:33px;
+  color:white;
+  background-color: rgb(199, 81, 199);
+  border:none;
+  border-radius: 6px;
+  font-size: 18px;
+  font-weight: 500;
+}
+@keyframes example {
+  to {
+    transform: scaleX(0);
+  }
+  from {
+    transform: scaleX(1);  
+  }
+}
+
+h1{
+  animation-name: example;
+  animation-duration: 5s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite;
+}
+
+h2{
+  text-align: center;
+  color:rgb(89, 18, 89);
+}
+
+.data{
+  list-style-type:none;
+  font-size: 19px;
+}
+.incButton{
+  width:40px;
+  height:40px;
+  margin-left:12px;
+  font-size: 18px;
+  background: green;
+  
+}
+
+.decButton{
+  width:40px;
+  height:40px;
+  margin: 10px;
+  font-size: 18px;
+  background:rgb(219, 44, 44);
+}
